@@ -11,13 +11,11 @@ setcookie('Idioma',$valor_idioma);
 ?>
 
 <form action="cookies.php" method="get">
-    <input type="text" name="Nombre" placeholder="Escriba su nombre" value=<?php echo$_COOKIE['Nombre'] ?> required>
+    <input type="text" name="Nombre" placeholder="Escriba su nombre" value= <?php echo$_COOKIE['Nombre'] ?> required>
     <input list ="browser" name="Idioma" id="Idioma" placeholder="¿Que idioma prefiere?" required>
 
 
-    <datalist id="browser" >
-
-            <?php echo$_COOKIE['Idioma']?>
+    <datalist id="browser">
             <option value="Castellano">
             <option value="Catalan">
             <option value="English">
