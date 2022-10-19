@@ -19,6 +19,3 @@ $resultados = $conexion->query("CREATE TABLE RamonPerezM_tablas(
                                 imagen VARCHAR(2)
                                 )");
 
-print $conexion;
-
-

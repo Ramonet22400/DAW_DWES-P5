@@ -21,4 +21,4 @@ setcookie('Puntos',0);
             <input type="submit" name="Enviar" value="Iniciar Sesión">
         </form>
     </body>
-</html>
+</html>+
