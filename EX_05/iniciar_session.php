@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!doctype html>
 <html lang="en">
 
@@ -17,20 +13,20 @@
 
         <h1> Iniciar session </h1>
 
+        <form  action="perfil.php" method="get">
+            <h3> Inicie session </h3>
+            <input type="text" name="Nombre_val" placeholder="Usuario" required>
+            <br>
+            <input type="text" name="Contra_val" placeholder="Contraseña" required>
+            <br>
+            <input type="submit" name="Enviar">
+        </form>
+
+
         <p> Quiero volver atrás:</p>
         <a href="index.php"> Home page</a>
         <p> No me acordaba no tengo un usuario :(</p>
         <a href="Crear_Usuario.php"> Crear Usuario </a>
-
-        <form>
-            <br>
-            <h3> Inicie session </h3>
-            <input placeholder="Usuario">
-            <br>
-            <input placeholder="Contraseña">
-            <br>
-            <input type="submit" name="Enviar">
-        </form>
 
     </body>
 </html>
