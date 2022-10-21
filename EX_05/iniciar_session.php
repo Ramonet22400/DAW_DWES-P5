@@ -20,13 +20,15 @@
         <p> Quiero volver atrás:</p>
         <a href="index.php"> Home page</a>
         <p> No me acordaba no tengo un usuario :(</p>
-        <a href="Crear_Usuario.php"> Iniciar Session </a>
+        <a href="Crear_Usuario.php"> Crear Usuario </a>
 
         <form>
             <br>
             <h3> Inicie session </h3>
-            <input placeholder="Introduce nombre">
+            <input placeholder="Usuario">
+            <br>
             <input placeholder="Contraseña">
+            <br>
             <input type="submit" name="Enviar">
         </form>
 

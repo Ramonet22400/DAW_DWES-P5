@@ -23,6 +23,20 @@
         <p> Ya soy usuario solo venia a cotillear...</p>
         <a href="iniciar_session.php"> Iniciar Session </a>
 
+        <form>
+            <br>
+            <h3> Inicie session </h3>
+            <input placeholder="Nombre">
+            <br>
+            <input placeholder="Apellidos">
+            <br>
+            <input placeholder="Usuario">
+            <br>
+            <input placeholder="Contraseña">
+            <br>
+            <input type="submit" name="Enviar">
+        </form>
+
     </body>
 </html>
 
