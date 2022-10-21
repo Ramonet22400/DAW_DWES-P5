@@ -17,7 +17,7 @@ $_SESSION['Puntos'] = $_COOKIE['Puntos'];
 <a href="logout.php">Cerrar Sesión</a>
 <form action="cookies.php" method="get">
 
-    <h1> Hola <?php echo $valor_onmbre ?> </h1>
+    <h1> Hola <?php echo $valor_nombre ?> </h1>
 
     <p> Gracias al programa de afiliados usted cuenta con los siguientes puntos: </p>
     <p><?php echo "Los puntos con los que cuenta son: ".$_COOKIE['Puntos']." puntos.";?></p>

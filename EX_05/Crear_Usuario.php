@@ -1,5 +1,19 @@
 <?php
 
+if(isset($_GET['Enviar'])){
+    $valor_nombre = $_GET['Nombre'];
+    $valor_apellidos  = $_GET['Apellidos'];
+    $valor_usuario  = $_GET['Usuario'];
+    $valor_contra  = $_GET['Contraseña'];
+}
+
+setcookie('Nombre', $valor_nombre);
+setcookie('Idioma',$valor_apellidos);
+setcookie('Idioma',$valor_usuario);
+setcookie('Idioma',$valor_contra);
+
+echo($valor_usuario)
+
 ?>
 
 <!doctype html>
@@ -26,17 +40,24 @@
         <form>
             <br>
             <h3> Inicie session </h3>
-            <input placeholder="Nombre">
+            <input type="text" name="Nombre" placeholder="Escriba su nombre" required>
             <br>
-            <input placeholder="Apellidos">
+            <input type="text" name="Apellidos" placeholder="Apellidos" required>
             <br>
-            <input placeholder="Usuario">
+            <input type="text" name="Usuario" placeholder="Usuario" required>
             <br>
-            <input placeholder="Contraseña">
+            <input type="password" name="Contraseña" placeholder="Contraseña" required>
             <br>
             <input type="submit" name="Enviar">
         </form>
-
     </body>
 </html>
 
+$conexion = new PDO('mysql:host=fmesasc.com;dbname=daw2', 'daw2', 'Gimbernat');
+
+$resultados = $conexion->query("CREATE TABLE modelo_usuario(
+firstname VARCHAR(30),
+lastname VARCHAR(40),
+username VARCHAR(40),
+contra VARCHAR(30)
+)");
