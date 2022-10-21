@@ -2,7 +2,6 @@
 
 ?>
 
-
 <!doctype html>
 <html lang="en">
 
@@ -24,7 +23,7 @@
             <br>
             <input type="text" name="Contra_val" placeholder="Contraseña" required>
             <br>
-            <input type="submit" name="Enviar">
+            <input type="submit" name="Entrar">
         </form>
 
 
