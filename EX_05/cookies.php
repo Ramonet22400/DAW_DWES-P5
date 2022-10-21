@@ -1,18 +1,3 @@
-<?php
-if (isset($_GET['Enviar'])) {
-    $valor_nombre = $_GET['Nombre'];
-    $valor_apellidos = $_GET['Apellidos'];
-    $valor_usuario = $_GET['Usuario'];
-    $valor_contra = $_GET['Contraseña'];
-}
-
-setcookie('Nombre', $valor_nombre);
-setcookie('Idioma', $valor_apellidos);
-setcookie('Idioma', $valor_usuario);
-setcookie('Idioma', $valor_contra);
-
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -28,10 +13,25 @@ setcookie('Idioma', $valor_contra);
 <p> Bienvenido :)</p>
 
 
-<a href="iniciar_session.php">Inicie sessión</a>
+<a href="iniciar_session.php">Inicie session</a>
 
 </body>
 </html>
 
+<?php
+
+if (isset($_GET['Enviar'])) {
+    $valor_nombre = $_GET['Nombre'];
+    $valor_apellidos = $_GET['Apellidos'];
+    $valor_usuario = $_GET['Usuario'];
+    $valor_contra = $_GET['Contraseña'];
+}
+
+setcookie('Nombre', $valor_nombre);
+setcookie('Apellido', $valor_apellidos);
+setcookie('Usuario', $valor_usuario);
+setcookie('Contraseña', $valor_contra);
+
+?>
 
 
