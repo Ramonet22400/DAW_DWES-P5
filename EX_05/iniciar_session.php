@@ -21,7 +21,7 @@
             <h3> Inicie session </h3>
             <input type="text" name="Nombre_val" placeholder="Usuario" required>
             <br>
-            <input type="text" name="Contra_val" placeholder="Contraseña" required>
+            <input type="password" name="Contra_val" placeholder="Contraseña" required>
             <br>
             <input type="submit" name="Entrar">
         </form>

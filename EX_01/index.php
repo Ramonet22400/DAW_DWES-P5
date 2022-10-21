@@ -17,6 +17,8 @@ setcookie('contador', 0, time() + 3600, '/');
     <body>
         <h1>Cookie set</h1>
 
+        <a href="texto.php"> Consultar contador</a>
+
     </body>
 
 </html>
