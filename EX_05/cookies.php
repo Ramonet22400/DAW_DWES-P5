@@ -8,9 +8,7 @@ if (isset($_GET['Enviar'])) {
 }
 
 setcookie('Nombre', $valor_nombre);
-setcookie('Apellido', $valor_apellidos);
-setcookie('Usuario', $valor_usuario);
-setcookie('Contraseña', $valor_contra);
+setcookie('Contrasena', $valor_contra);
 
 ?>
 
@@ -28,6 +26,8 @@ setcookie('Contraseña', $valor_contra);
 
     <h3> Su perfil a sido guardado correctamente.</h3>
     <p> Bienvenido :)</p>
+
+
     <a href="iniciar_session.php">Inicie session</a>
 
     </body>

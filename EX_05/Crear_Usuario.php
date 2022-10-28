@@ -32,6 +32,5 @@
             <br>
             <input type="submit" name="Enviar" value="Enviar">
         </form>
-        </form>
     </body>
 </html>

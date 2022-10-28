@@ -1,5 +1,18 @@
 <?php
 
+if (isset($_GET['Enviar'])) {
+    $valor_nombre = $_GET['Nombre'];
+    $valor_apellidos = $_GET['Apellidos'];
+    $valor_usuario = $_GET['Usuario'];
+    $valor_contra = $_GET['Contraseña'];
+}
+
+if(isset($_GET['']))
+
+
+
+
+
 ?>
 
 <!doctype html>
@@ -25,7 +38,6 @@
             <br>
             <input type="submit" name="Entrar">
         </form>
-
 
         <p> Quiero volver atrás:</p>
         <a href="index.php"> Home page</a>
